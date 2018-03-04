@@ -8,4 +8,5 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="btn_text">إضغط لتسجيل هنا آية قرآنية</string>
     <string name="quran">سورة من القرآن</string>
+    <string name="index_loading">loadiing</string>
 </resources>

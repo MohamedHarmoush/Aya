@@ -34,17 +34,20 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true">
-        <android.support.design.widget.FloatingActionButton
-            android:padding="3dp"
-            android:id="@+id/recordBtn"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_gravity="center"
-            android:src="@drawable/listenbutton"
-            tools:layout_editor_absoluteY="224dp" />
+            android:id="@+id/linearLayout">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/recordBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignStart="@+id/linearLayout"
+                android:layout_alignTop="@+id/linearLayout"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/listenbutton"
+                tools:layout_editor_absoluteY="224dp" />
         </LinearLayout>
     </pl.bclogic.pulsator4droid.library.PulsatorLayout>
 </LinearLayout>
