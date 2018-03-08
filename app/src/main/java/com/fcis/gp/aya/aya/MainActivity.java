@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         SectionPageAdapter adapter = new SectionPageAdapter(getSupportFragmentManager());
         adapter.addFragment(new History(), "مرجعيات");
         adapter.addFragment(new search(), "ابجث عن آية");
-        adapter.addFragment(new HolyQuran(), "سورة");
+        adapter.addFragment(new HolyQuran(), "السور");
         viewPager.setAdapter(adapter);
     }
 
